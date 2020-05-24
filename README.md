@@ -1,5 +1,4 @@
 # vuejsuploader
-<<<<<<< HEAD
 
 ## Project setup
 ```
@@ -23,6 +22,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-=======
-newcss vuejs axios
->>>>>>> 8c5525c821d8aa9940138ae358affa83129bff66
