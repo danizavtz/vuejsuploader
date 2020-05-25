@@ -36,6 +36,7 @@ export default {
               'Content-Type': 'multipart/form-data'
             }
       }).then(function(response) {
+        this.clearFields()
         console.log(response.data)
       }).catch(function(response) {
         console.log(response.data)
@@ -43,7 +44,12 @@ export default {
     },
     handleFileUpload() {
       this.file = this.$refs.file.files[0];
+    },
+    clearFields() {
+      this.nome = '';
+      this.file = '';
     }
+
   }
 }
 </script>
