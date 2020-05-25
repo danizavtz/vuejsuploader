@@ -1,7 +1,8 @@
 <template>
   <div class="home">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <form action="." method="post" @submit.prevent="handleSubmit">
+    <!-- to a file upload to work with the form must be a multipart form-data, it is setted in axios-->
+    <form action="." method="post" @submit.prevent="handleSubmit" enctype="multipart/form-data">
       <label for="nome">Nome </label>
       <input id="nome" type="text" v-model="nome" name="nome"><br>
       <input id="image" type="file" name="image" ref="file" @change="handleFileUpload()"/><br>
