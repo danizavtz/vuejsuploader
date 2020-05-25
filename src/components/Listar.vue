@@ -1,9 +1,8 @@
 <template>
   <div>
       <p v-for="item in lista" :key="item.id" >
-          {{ item }}
           {{ item.nome }}
-          <img :src="`http://localhost/${item.currentpath}.jpg`">
+          <img :src="`http://localhost/${item.currentpath}.${item.extension}`">
       </p>
   </div>
 </template>
