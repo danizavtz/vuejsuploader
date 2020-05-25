@@ -20,5 +20,11 @@ npm run build
 npm run lint
 ```
 
+
+This application is a front-end for another project:
+
+https://github.com/danizavtz/serverupload
+
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
